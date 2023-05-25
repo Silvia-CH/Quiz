@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="paneInicio" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hoja11.controladores.Inicio">
+    <children>
+      <Pane prefHeight="212.0" prefWidth="900.0">
+         <children>
+              <Label layoutX="328.0" layoutY="59.0" prefHeight="35.0" prefWidth="244.0" text="TEST PERSONALIDAD">
+                  <font>
+                      <Font name="System Bold" size="24.0" />
+                  </font>
+              </Label>
+            <Label layoutX="246.0" layoutY="151.0" prefHeight="35.0" prefWidth="408.0" text="          ¿QUÉ DIOS GRIEGO ERES?">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ImageView fx:id="imgInicio" fitHeight="264.0" fitWidth="788.0" pickOnBounds="true" preserveRatio="true" />
+        <Button fx:id="botonComenzar" mnemonicParsing="false" onAction="#empezarTest" prefHeight="45.0" prefWidth="130.0" text="COMENZAR">
+            <VBox.margin>
+                <Insets />
+            </VBox.margin>
+        </Button>
+    </children>
+</VBox>
